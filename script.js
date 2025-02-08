@@ -45,12 +45,12 @@ taskBar.appendChild(p);
 taskBar.appendChild(li);
 let trashImg = document.createElement("img");
 trashImg.setAttribute("class", "trashImg");
-trashImg.setAttribute("src", "trash.png");
+trashImg.setAttribute("src", "img/trash.png");
 let deleteButton = document.createElement("button");
 deleteButton.appendChild(trashImg);
 let pen = document.createElement("img");
 pen.setAttribute("class", "pen");
-pen.setAttribute("src", "pen.png");
+pen.setAttribute("src", "img/pen.png");
 let modifiéButton = document.createElement("button");
 modifiéButton.appendChild(pen);
 modifiéButton.setAttribute("class", "Button")
