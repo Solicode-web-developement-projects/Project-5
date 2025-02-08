@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <article>
+        <section class="to_do_list">
+            <form id="task_form">
+                <h2>To do list</h2>
+                <div id="taskk">
+                    <label for="task">Task:</label>
+                    <input type="text" id="task" placeholder="write your task title" />
+                </div>
+                <p id="task_title_error"></p>
+                <div id="descriptionn">
+                    <label for="description:">description:</label>
+                    <textarea id="description" cols="55" rows="10" placeholder="write your description"></textarea>
+                </div>
+                <p id="description_error"></p>
+        
+                <div id="startday">
+                    <label for="start_day">start_day:</label>
+                    <input type="date" id="start_day" />
+                </div>
+                <p id="start_day_error"></p>
+        
+                <div id="endday">
+                    <label for="end_day">end_day:</label>
+                    <input type="date" id="end_day" />
+                </div>
+                <p id="end_day_error"></p>
+                <div id="priorityy">
+                    <label for="priority">priority:</label>
+                    <div>
+                        <input type="checkbox" id="priority" name="priority" />
+                    </div>
+                </div>
+                <p id="priority_error"></p>
+            </form>
+            <div id="buttons">
+                <button id="addBtn" onclick="addFunction()">Add to the list</button>
+                <button onclick="cancel()">cancel</button>
+            </div>
+        </section>
+        <section id="section">
+            <div class="returnPosition">
+                <button id="return" onclick="retour()"><img src="return.png" alt="" class="return"></button>
+                <h2>My Tasks</h2>
+            </div>
+            
+            
+        </section>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
