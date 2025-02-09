@@ -1,7 +1,3 @@
-Voici un fichier README pour votre projet de **To-Do List** :  
-
----
-
 # **To-Do List - Gestionnaire de Tâches**  
 
 ## **Description**  
